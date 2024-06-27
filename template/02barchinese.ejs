@@ -1,0 +1,50 @@
+<%- include("00header.ejs") %>
+
+<div class="ahead">
+    <div class="locate">位於: 台北 </div>
+    <div class="languages"></div>
+        <div class="member">訂位</div>
+        <div class="member"><a href="./login">會員登入</a></div>
+        <div class="member"><a href="./">語言</a></div>
+</div>
+<div class="center">
+    <img src="BAR.jpg" width="30%" height="10%" />
+</div>    
+<div class="aboutous">
+    <div class="titles">哪裡,</div>
+    <div class="contents">
+        在你所想，想你所在
+    </div>
+ </div>     
+<div class="desktop">
+    <div onclick="IG();" class="item">ig 
+        <div id="IGcontent"  > 哪裡 小酒館</div>
+    </div>
+    <div onclick="add();" class="item"> 地址
+        <div id="address"  class="item"> <a href="https://g.co/kgs/qHfmz1x">台北市ｘｘ區ｘｘ路ｘ號</a></div>
+    </div>   
+    <div class="item"><a href="./menu">酒單</a></div>
+</div>
+<div class="mobile">
+    <img src="instagram.png" width="10px" height="10px" />
+    <img src="google.png" width="10px" height="10px" /><a href="https://g.co/kgs/qHfmz1x"></a>
+    <img src="windows.png" width="10px" height="10px" /><a href="./menu"></a>
+</div>
+<script>
+    function IG(){
+        let IGDiv=document.querySelector("#IGcontent");
+        let addressDiv=document.querySelector("#address");
+        IGDiv.style.display="block";
+        addressDiv.style.display="none";
+        IGDiv.innerHTML="IG連結";
+    }
+    function add(){
+        let IGDiv=document.querySelector("#IGcontent");
+        let addressDiv=document.querySelector("#address");
+        IGDiv.style.display="none";
+        addressDiv.style.display="block";
+        addressDiv.innerHTML="GOOGLE MAP 連結";
+    }
+ </script>
+
+<%- include("99footer.ejs") %>

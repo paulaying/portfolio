@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+body{
+    font-family: "Helvetica", "Arial",‘cwTeXFangSong’, serif;
+    color:#393E41;
+    margin:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: multiply;
+    background-image:url("BAR.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+form{
+    background-color:rgba(211,208,203,0.8);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;    
+    margin-bottom:10px;
+}
+
+table{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-left:10px;
+}
+
+.favor{
+    margin-left:10px;
+    margin-top:30px;
+}
+
+tr{
+    font-size: 14px;
+    border: 1px ;
+    align-self: center;
+}
+
+p{
+    font-size:10px;
+    color:#E7E5DF;
+    margin-left:10%;
+}
+
+.background{
+    display: flex;
+    padding:30px 30px 10px 10px;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    background-image: url(paper.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+    height: auto;
+}
+
+.menu{
+    display:block;
+    writing-mode: vertical-lr;
+    font-weight: bold;
+    width: 10%;
+    font-size: 20px;
+    margin-right:20px;
+}
+
+.cocktail{
+    flex:none;
+    width: 25%;
+    font-size: 18px;
+    margin-bottom:20px;
+}
+
+.content , .item{
+    font-size: 14px;
+    margin-top:12px;
+}
+
+button{
+    width: 10%;
+    height:auto;
+    font-size: 12px;
+    align-self: center;
+}

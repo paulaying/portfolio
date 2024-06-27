@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+
+body{
+    font-family: "Helvetica", "Arial",‘cwTeXFangSong’, serif;
+    color:#E7E5DF;
+    margin:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: multiply;
+    background-image:url("BAR.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+p{
+    font-size:10px;
+    color:#E7E5DF;
+    margin-left:10%;
+}
+
+.under {
+    display:flex;
+}
+
+fieldset{
+    border:1px solid;
+    width: 40%;
+    height: auto;
+    display: block;
+    flex: auto;
+    align-items: center;
+}
+
+.sign {
+    display: block;
+    flex: auto;    
+    text-align: center;
+    font-size: 16px;
+    align-items: center;
+}
+
+.answer{
+    display: block;
+    padding: 10%;    
+}
+
+.signintitle{
+    font-size: 20px;
+    flex:none;
+    padding-bottom: 12px;
+    align-items: center;
+}
+
+.QA{
+    padding-bottom: 14px;
+    font-size: 16px;
+}
+
+.notes{
+    font-size:12px;
+    color:#E7BB41;
+}
+
+@media(max-width:500px){
+.under{
+    display: block;
+    align-items: center;
+}
+fieldset{
+    width: 90%;
+}
+.answer{
+    padding:20px;
+}
+}

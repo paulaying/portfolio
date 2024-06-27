@@ -1,0 +1,132 @@
+<%- include("00header.ejs") %>
+<!-- 加上喜好 -->
+<form >
+    <table>
+        <div class="favor"><b>我的喜好 </b></div>
+        <tr>
+            <td><b>平常手搖杯我都喝</b></td>
+            <td>
+                <span><input type="radio"/>珍奶</span>
+                <span><input type="radio"/>奶蓋</span>
+                <span><input type="radio"/>原味茶</span>
+                <span><input type="radio"/>果茶</span>
+            </td>
+        </tr>
+        <tr>
+            <td>甜度</td>
+            <td>
+                <span><input type="radio"/>正常糖</span>
+                <span><input type="radio"/>少糖</span>
+                <span><input type="radio"/>半糖</span>
+                <span><input type="radio"/>微糖</span>
+                <span><input type="radio"/>無糖</span>
+            </td>
+        </tr>
+        <tr>
+            <td>酸感</td>
+            <td>
+                <span><input type="radio"/>檸檬</span>
+                <span><input type="radio"/>百香果</span>
+                <span><input type="radio"/>柳丁</span>
+                <span><input type="radio"/>梅子</span>
+                <span><input type="radio"/>不喜歡酸</span>
+            </td>
+        </tr>
+        <tr>
+            <td>茶感</td>
+            <td>
+                <span><input type="radio"/>紅茶</span>
+                <span><input type="radio"/>烏龍茶</span>
+                <span><input type="radio"/>綠茶</span>
+                <span><input type="radio"/>花茶</span>
+                <span><input type="radio"/>今天不想喝茶</span>
+            </td>
+        </tr>
+        <tr>
+            <td>苦味</td>
+            <td>
+                <span><input type="radio"/>CAMPARI</span>
+                <span><input type="radio"/>苦艾酒</span>
+                <span><input type="radio"/>苦精</span>
+                <span><input type="radio"/>人生已經夠苦了，一點苦都不要</span>
+            </td>
+        </tr>
+        <tr>
+            <td>氣泡感</td>
+            <td>
+                <span><input type="radio"/>喜歡氣泡波波波</span>
+                <span><input type="radio"/>今天先不要那麼刺激</span>
+            </td>
+        </tr>
+        <tr>
+            <td>酒感</td>
+            <td>
+                <span><input type="radio"/>我都喝純的</span>
+                <span><input type="radio"/>濃一點沒關係</span>
+                <span><input type="radio"/>喝起來有一點酒感就好</span>
+                <span><input type="radio"/>會醉就好一點酒感都不要</span>
+                <span><input type="radio"/>不想喝酒?!</span>
+            </td>
+        </tr>
+    </table>
+    <div class="favor"><b>想要甚麼特別的口感大聲說出來</b></div>
+</form>
+<div class="background">
+    <div class="menu">MENU</div>
+    <div class="cocktail">SIGNATURE
+        <div class="content">Fall Down</div>
+        <div class="content">Grandma's TeaPot</div>
+        <div class="content">27years Old</div>
+        <div class="content">Mature Grapes</div>
+        <div class="content">Autumn is Coming</div>
+        <div class="content">Purple Smash</div>
+        <div class="content">Memoery</div>
+        <div class="content">The Burned ExamPaper</div>
+        <div class="content">The First Chocolate</div>
+        <div class="content">After Lunch</div>
+    </div>
+    <div class="cocktail">CLASSICAL
+        <div class="content">VODKA
+            <div class="item">Cosmopolitan</div>
+            <div class="item">SexintheBeach</div>
+            <div class="item">LongIsland</div>
+        </div>
+        <div class="content">GIN
+            <div class="item">Gimlet</div>
+            <div class="item">Martini</div>
+            <div class="item">Negroni</div>
+        </div>
+        <div class="content">RUM
+            <div class="item">Daiquiri</div>
+            <div class="item">Mojido</div>
+            <div class="item">Zombie</div>
+        </div>
+    </div>
+    <div class="cocktail">...
+        <div class="content">TEQUILA
+            <div class="item">Margarita</div>
+            <div class="item">MexicoMule</div>
+            <div class="item">ElDiablo</div>
+        </div>
+        <div class="content" >BRANDY
+            <div class="item">Sidecar</div>
+            <div class="item">BetweentheSheets</div>
+            <div class="item">CorpseReviver#1</div>
+        </div>
+        <div class="content">WHISKEY
+            <div class="item">OldFashion</div>
+            <div class="item">Manhattan</div>
+            <div class="item">Pencillin</div>
+    </div>
+    </div>
+    <div class="cocktail">SHOT
+        <div class="content">Seeds</div>
+        <div class="content">Hurricane</div>
+        <div class="content">Hardvast</div>
+    </div>
+</div>
+<form action="/signout">
+    <button>SIGN OUT</button>
+</form>
+
+<%- include("99footer.ejs") %>

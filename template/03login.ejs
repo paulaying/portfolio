@@ -1,0 +1,37 @@
+<%- include("00header.ejs") %>
+
+<div class="under">
+    <fieldset>
+        <form class="sign" action="/signin" method="POST">
+            <div class="answer"> 
+                <div class="signintitle">會員登入</div>
+                <div class="QA">SIGN IN</div>
+                <div class="QA">Enter your email: <input type="email" name="email" placeholder="電子郵件 email"></div>
+                <div class="QA">Enter your password: <input type="password" name="password" placeholder="密碼 password"></div>
+                <button>Sign in</button>
+            </div>
+        </form>
+    </fieldset>
+    <fieldset>
+        <form class="sign" action="/signup" method="POST">
+            <div class="answer"> 
+                <div class="signintitle">加入會員</div>
+                <div class="QA">JION US</div>
+                <div class="QA">Your name <input type="text" name="ID" placeholder="姓名"  required></div>
+                <div class="QA">Your Email: <input type="email" name="email" placeholder="電子郵件 email"  required></div>
+                <div class="QA">Your password: <input type="password" name="password" placeholder="密碼 password"  required minlength="8">
+                    <div class="notes">password-lenth at least 8 words</div>
+                </div>
+                <div class="QA">Confrim password: <input type="password" name="confrim" placeholder="確認密碼 password"  required></div>
+                <div class="QA">Your birthday <input type="date" name="birthday"></div>
+                <div class="QA">Contact you <input type="text" name="cellphone" placeholder="手機號碼 phone number"></div>
+                <button >Be a part of us</button>
+            </div>
+        </form>
+    </fieldset>
+</div>
+<form action="./">
+    <button class="under" >上一頁</button>
+</form>
+
+<%- include("99footer.ejs") %>
