@@ -9,7 +9,7 @@ app.use(express.static("refer"));
 const somewhere = require("./bar")
 
 app.get("/",function(req,res) {
-    res.render("01introduction",{
+    res.render("introduction",{
         title : "About Me",
         path: "01.css"
     })
